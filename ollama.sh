@@ -12,7 +12,7 @@ if ! command -v ollama &> /dev/null; then
 fi
 
 # --- Prepare Model List ---
-RECOMMENDED_MODELS=("phi:2.7b-chat-v2-q4_0" "phi-3-mini-4k-instruct.Q4_0.gguf:Q4_0" "phi3:mini" "phi3:medium-q4_0" "qwen:0.5b" "llama3:instruct" "phi-4")
+RECOMMENDED_MODELS=("tinyllama:1.1b-chat" "phi:2.7b-chat-v2-q4_0" "phi-3-mini-4k-instruct.Q4_0.gguf:Q4_0" "phi3:mini" "phi3:medium-q4_0" "qwen:0.5b" "llama3:instruct" "phi-4")
 
 # Get installed models
 INSTALLED_MODELS=()
